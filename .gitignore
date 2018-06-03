@@ -1,0 +1,5 @@
+.DS_Store
+bin/program
+bin/tests
+bin/lib/libbusinessLogic.a
+build

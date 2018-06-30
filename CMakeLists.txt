@@ -15,7 +15,7 @@ add_executable(program ${SOURCES})
 
 target_include_directories(program PUBLIC include)
 
-file(GLOB SFML_LIBS ${CMAKE_SOURCE_DIR}/lib/sfml/*.dylib)
+file(GLOB SFML_LIBS ${CMAKE_SOURCE_DIR}/lib/sfml/*)
 target_link_libraries(program ${SFML_LIBS})
 target_link_libraries(program businessLogic)
 
